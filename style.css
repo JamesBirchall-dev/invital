@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('blurred-gym-machines.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+nav {
+    background-color: #003300;
+}
+
+.navbar {
+    background-color: #4CAF50; /* Natural green */
+    
+}
+
+.navbar a {
+    color: #003300; /* White text for contrast */
+}
+
+.navbar a:hover {
+    color: #f1f1f1; /* Lighter green on hover */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.membership-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.membership-table th,
+.membership-table td {
+    border: 2px solid darkgreen;
+    padding: 10px;
+    text-align: center;
+}
+
+.membership-table th {
+    background-color: darkgreen;
+    color: white;
+}
+
+.membership-table tr:nth-child(even) {
+    background-color: #e6f2e6;
+}
+
+.membership-table tr:hover {
+    background-color: #c2f0c2;
+}
+
+.hero {
+        background-image: url('https://as1.ftcdn.net/v2/jpg/02/83/01/74/1000_F_283017482_vZY88NOFg8wkVqRtqXMyXMiUQyXJeiyP.jpg');
+    height: 1000px;
+    color: #003300
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.video-section {
+    margin: 2rem 0;
+}
+
+.footer {
+     width: 100%;
+    background-color: #515151;   
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 6.5%;
+}
+
+.footer a {
+    color: #33300;
+    font-size: 1.5rem;
+    padding: 5px;
+}

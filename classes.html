@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .content-block {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px; /* Added spacing below the content block */
+            margin-top: 20px;
+        }
+        .content-image {
+            max-width: 200px; /* Set image width */
+            height: auto;
+            margin-left: 20px; /* Added margin for spacing */
+        }
+        .membership-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: white; /* Background color for table */
+            border-radius: 8px;
+            overflow: hidden; /* To round corners of the table */
+        }
+        .membership-table th,
+        .membership-table td {
+            border: 2px solid darkgreen;
+            padding: 10px;
+            text-align: center;
+        }
+        .membership-table th {
+            background-color: darkgreen;
+            color: white;
+        }
+        .membership-table tr:nth-child(even) {
+            background-color: #e6f2e6;
+        }
+        .membership-table tr:hover {
+            background-color: #c2f0c2;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><h2>inVital</h2></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Classes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="container">
+        <div class="content-block">
+            <div>
+                <h1>Classes </h1>
+                <h4>Yoga</h4>
+                <p>Yoga is a group of physical, mental, and spiritual practices or disciplines that originated in ancient India, aimed at controlling body and mind to attain various salvation goals as practiced in the Jain, Buddhist, and Hindu traditions.</p>
+                <h4>Stength & conditioning</h4>
+                <p>Sport Strength and Conditioning considers the various methods used to physically prepare athletes in sport. Training methods used to enhance the capacity of the 3 energy systems (phosphate, lactic and aerobic) is considered in the context of periodisation and long-term athlete development.</p>
+                <h4>Food & Finance</h4>
+                <p>inVital's forum for sharing methodologies for healthy eating and spending, get tips on how best to budget for you and your family's diet</p>
+                
+            </div>
+
+      </div>
+
+
+      <div class="container">
+        <table class="membership-table">
+            <thead>
+                <tr>
+                    <th>Membership Type</th>
+                    <th>Price</th>
+                    <th>Includes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Peak Membership</td>
+                    <td>£30/month</td>
+                    <td>Full access anytime including classes</td>
+                </tr>
+                <tr>
+                    <td>Off-Peak Membership</td>
+                    <td>£15/month</td>
+                    <td>0900-1700 access including classes</td>
+                </tr>
+                <tr>
+                    <td>Peak Family Membership</td>
+                    <td>$150/month</td>
+                    <td>Full access not including classes</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+
+  
+    <!-- Footer -->
+    <div class="footer">
+        <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</body>
+</html>
